@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Flask Page</title>
+</head>
+<body>
+    <div id="content">
+        <p>Loading content...</p>
+    </div>
+
+    <script>
+        // Fetch the rendered HTML from Flask
+        fetch('{{FLASK_URL}}')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text(); // Get the response as text (HTML)
+            })
+            .then(html => {
+                document.getElementById('content').innerHTML = html; // Inject the HTML
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = '<p>Failed to load content.</p>';
+                console.error('There was a problem with the fetch operation:', error);
+            });
+    </script>
+</body>
+</html>
