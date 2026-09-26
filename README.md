@@ -2,6 +2,12 @@
 
 [![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/flask-to-github-pages)](https://github.com/KeyErrorFinn/flask-to-github-pages/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/flask-to-github-pages)](https://github.com/KeyErrorFinn/flask-to-github-pages/issues)
 
+<p align="center">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff" />
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=fff" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff" />
+</p>
+
 A minimal demonstration of publishing the output of a dynamic Flask-style page as a static GitHub Pages site.
 
 ## How it works
