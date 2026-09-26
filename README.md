@@ -1,6 +1,9 @@
 # Flask to GitHub Pages Example
 
-[![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/flask-to-github-pages)](https://github.com/KeyErrorFinn/flask-to-github-pages/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/flask-to-github-pages)](https://github.com/KeyErrorFinn/flask-to-github-pages/issues)
+<p align="center">
+  <a href="https://github.com/KeyErrorFinn/flask-to-github-pages/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KeyErrorFinn/flask-to-github-pages" /></a>
+  <a href="https://github.com/KeyErrorFinn/flask-to-github-pages/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/KeyErrorFinn/flask-to-github-pages" /></a>
+</p>
 
 <p align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff" />
